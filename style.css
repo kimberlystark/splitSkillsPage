@@ -17,6 +17,10 @@
 body {
   font-family: "Roboto", sans-serif;
   margin: 0;
+  
+}
+
+.skills {
   height: 100vh;
   overflow: hidden;
 }
@@ -30,7 +34,7 @@ h1 {
   white-space: nowrap;
 }
 
-.container {
+.split-container {
   position: relative;
   background-color: #333;
   height: 100%;

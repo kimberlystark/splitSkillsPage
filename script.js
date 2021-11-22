@@ -1,13 +1,13 @@
 const left = document.querySelector('.left');
 const right = document.querySelector('.right');
-const container = document.querySelector('.container');
+const splitContainer = document.querySelector('.split-container');
 const h1 = document.querySelector('h1');
 
 // left side events
-left.addEventListener('mouseenter', ()=> container.classList.add('hover-left'))
-left.addEventListener('mouseleave', ()=> container.classList.remove('hover-left'))
+left.addEventListener('mouseenter', ()=> splitContainer.classList.add('hover-left'))
+left.addEventListener('mouseleave', ()=> splitContainer.classList.remove('hover-left'))
 
 
 // right side events
-right.addEventListener('mouseenter', ()=> container.classList.add('hover-right'))
-right.addEventListener('mouseleave', ()=> container.classList.remove('hover-right'))
+right.addEventListener('mouseenter', ()=> splitContainer.classList.add('hover-right'))
+right.addEventListener('mouseleave', ()=> splitContainer.classList.remove('hover-right'))
